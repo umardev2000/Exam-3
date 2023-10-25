@@ -1,3 +1,18 @@
+@use "pages" as *;
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat SemiBold;
+  src: url(../Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../Fonts/Rubik-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;

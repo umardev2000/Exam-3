@@ -3,14 +3,147 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./scss/style.scss" />
+
     <title>Exam</title>
+    <link rel="stylesheet" href="./scss/style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="./images/Logoipsum.svg" alt="logo" />
+        <nav>
+          <a href="#">
+            <img src="./images/Logoipsum.svg" alt="logo" />
+          </a>
+          <input type="text " name="text" placeholder="Search bar" />
+          <div class="navbar">
+            <div class="nav__item">
+              <div class="form__field">
+                <select name="categories" id="categories">
+                  <option value="cate">
+                    <a href="#">Category</a>
+                  </option>
+                  <option value="cate">
+                    <a href="#,">CSS</a>
+                  </option>
+                  <option value="ru">
+                    <a href="#">HTML</a>
+                  </option>
+                  <option value="ru">
+                    <a href="#">JS</a>
+                  </option>
+                  <option value="uz">
+                    <a href="#">JAVA</a>
+                  </option>
+                </select>
+              </div>
+              <a class="nav__text" href="#mentor">Become an Mentor</a>
+              <div class="nav__btns">
+                <a href="#" class="nav__btn">Login</a>
+                <a href="#" class="nav__btn btn2">Sign Up</a>
+              </div>
+            </div>
+            <div class="navbar__items" id="dark-light">
+              <a href="#" class="nav-link"
+                ><svg
+                  class="switch"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1)"
+                >
+                  <path
+                    d="M20.742 13.045a8.088 8.088 0 0 1-2.077.271c-2.135 0-4.14-.83-5.646-2.336a8.025 8.025 0 0 1-2.064-7.723A1 1 0 0 0 9.73 2.034a10.014 10.014 0 0 0-4.489 2.582c-3.898 3.898-3.898 10.243 0 14.143a9.937 9.937 0 0 0 7.072 2.93 9.93 9.93 0 0 0 7.07-2.929 10.007 10.007 0 0 0 2.583-4.491 1.001 1.001 0 0 0-1.224-1.224zm-2.772 4.301a7.947 7.947 0 0 1-5.656 2.343 7.953 7.953 0 0 1-5.658-2.344c-3.118-3.119-3.118-8.195 0-11.314a7.923 7.923 0 0 1 2.06-1.483 10.027 10.027 0 0 0 2.89 7.848 9.972 9.972 0 0 0 7.848 2.891 8.036 8.036 0 0 1-1.484 2.059z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <button class="menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+              </svg>
+            </button>
+          </div>
+        </nav>
       </div>
     </header>
+
+    <main>
+      <section class="home-hero">
+        <div class="container">
+          <div class="home-cards__parrent">
+            <div class="home__card__left">
+              <h1>Find the Best Courses and Amazing Mentor</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus
+              </p>
+            </div>
+            <div class="home__card__right"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-contents">
+          <div class="footer-cards">
+            <div class="footer-card">
+              <img src="./images/footer logo.svg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                tristique placerat eleifend aliquam pellentesque facilisis
+                ultrices. Imperdiet mus urna egestas at tellus.
+              </p>
+            </div>
+            <div class="footer-card">
+              <div class="footer-item">
+                <h6>About</h6>
+                <a href="#">About us</a>
+                <a href="./pages/blog.html">Courses</a>
+                <a href="#">Mentor</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <div class="footer-card">
+              <div class="footer-item">
+                <h6>Support</h6>
+                <a href="./pages/detail..html">Detail</a>
+                <a href="#">Help & Support</a>
+                <a href="./pages/blog.html">Blog</a>
+                <a href="./pages/accaunt.html">Account</a>
+              </div>
+            </div>
+            <div class="footer-card">
+              <div class="footer-item">
+                <h6>Company</h6>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Code of Conduct</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-cards-contents">
+            <div class="footer-card-contents">
+              <p>Privacy Policy</p>
+              <p>Terms and Condition</p>
+            </div>
+            <div class="footer-card-contents">
+              <p>@2020 TanahAir Studio. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
